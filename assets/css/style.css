@@ -5,25 +5,37 @@ html, body {
 
 body {
     margin: 0%;
-    background-color: antiquewhite;
+    background-color: #eeeeee;
 }
 
 .h1 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
+    padding: 20px;
+}
+
+.h2 {
+    font-size: 25px;
+
 }
 
 .contentarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
     margin-left: 50px;
     margin-right: 50px;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .textfield {
     width: 100%;
     border-style: dashed;
+    border-radius: 10px;
     text-align: center;
     height: 100px;
+    color: #a7a7a7;
+    padding: 20px;
 }
 
 .buttoncontainer {
@@ -31,17 +43,21 @@ body {
 }
 
 .redbutton {
-    background-color: red;
+    background-color: rgb(173, 0, 0);
+    color: white;
     border-radius: 20px;
     float: left;
     padding: 10px;
-    width: 200px;
+    width: 250px;
+    font-size: 20px;
 }
 
 .greybutton {
     background-color: grey;
+    color: white;
     border-radius: 20px;
     float: right;
     padding: 10px;
-    width: 200px;
+    width: 250px;
+    font-size: 20px;
 }
