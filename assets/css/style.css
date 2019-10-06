@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+    background-color: antiquewhite;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.contentarea {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.textfield {
+    width: 100%;
+    border-style: dashed;
+    text-align: center;
+    height: 100px;
+}
+
+.buttoncontainer {
+    overflow: auto;
+}
+
+.redbutton {
+    background-color: red;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.greybutton {
+    background-color: grey;
+    border-radius: 20px;
+    float: right;
+    padding: 10px;
+    width: 200px;
+}
