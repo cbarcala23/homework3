@@ -23,6 +23,8 @@ body {
 .contentarea {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px 3px rgb(197, 197, 197);
     margin-left: 50px;
     margin-right: 50px;
     padding: 20px;
@@ -67,26 +69,64 @@ body {
 /*-----------------MEDIA QUERIES INDEX PAGE------------------*/
 /*-----------------------------------------------------------*/
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 374px) and (max-width: 639px) {
     .contentarea {
-        width: 550px;
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .h1 {
         text-align: center;
-        padding: 20px;
+        padding: 18px;
+        font-size: 30px;
+    }
+
+    .header {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: auto;
+        padding-top: 10px;
+
+    }
+
+    .h2 {
+        font-size: 18px;
+    }
+
+    .redbutton {
+        width: 240px;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    
+    .greybutton {
+        width: 240px;
+        font-size: 12px;
+        float: left;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 640px) {
+    .contentarea {
+        width: auto;
+    }
+
+    .h1 {
+        text-align: center;
+        padding: 18px;
     }
 
     .header {
         margin-left: 50px;
         margin-right: 50px;
-        width: 550px;
         padding-top: 10px;
     }
-    
+
     .h2 {
         font-size: 18px;
-    
     }
 
     .redbutton {
@@ -101,3 +141,4 @@ body {
     }
 
 }
+
